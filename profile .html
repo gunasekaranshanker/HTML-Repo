@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <forum>
+        <fieldset>
+            <legend>Registration form</legend>
+            <label for="name">First Name:</label>&nbsp;
+            <input type="text" class="name" id="name" required><br><br>
+            <label for="name">Last Name:</label>&nbsp;
+            <input type="text" class="name" id="name" required><br><br>
+            
+            <label for="name">User Name:</label>&nbsp;
+            <input type="text" class="name" id="name" required><br><br>
+            <label for="password">Password:</label>&nbsp;
+        <input type="password"class="password" id="password"><br><br>
+        <label for="password">Confirm<br>password:</label>&nbsp;
+        <input type="password"class="password" id="password"><br><br>
+        <label for="email">Enter Email id:</label>&nbsp;
+        <input type="email"class="email"id="email"  pattern="[a-z0-9 ,.!@#$%^&*]+@[a-z0-9 ./]$"><br><br>
+        <label for="Phoneno">Mobile Number:</label>&nbsp;
+        <input type="tel"id="phoneno"placeholder="123-45-67-890"pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}"><br><br>
+        <label for="Gender">Gender :</label>
+            
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female"name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+        <label for="date">DOB:</label>&nbsp;
+        <input type="date"  class="date"value="date"><br><br>
+        <label for ="course">Courses</label>
+        <select> 
+            <option>Select course</option>
+        </select>&nbsp;<br><br>
+        <label for="checkbox">Nationality:</label>&nbsp;
+        <input type="checkbox" id="checkbox" value="Indian">
+        <input type="checkbox" id="checkbox" value="others"><br><br>
+        <label for="file">Profile:</label>&nbsp;
+         <input type="file" class="file"id="file"><br><br>
+         <input type="submit" value="submit">
+         <input type="reset" value="reset">
+        </fieldset>
+    </forum>
+</body>
+</html>
